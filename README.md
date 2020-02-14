@@ -6,3 +6,7 @@ Font made with [Glyphr](http://glyphrstudio.com/)
 Run `sh preview.sh "your string"` to preview it with ImageMagick.
 
 This is filed under the Unlicense (public domain, no responsibility).
+
+## Current state
+
+![BLionTale Font preview](preview.png)
