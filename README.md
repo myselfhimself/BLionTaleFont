@@ -1,5 +1,6 @@
 # BLionTaleFont
 Tentative font for loving these last days of life
+Capital letters only. Optimized for french, so english should work too.
 
 Font made with [Glyphr](http://glyphrstudio.com/)
 
