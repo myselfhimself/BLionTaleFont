@@ -10,4 +10,5 @@ This is filed under the Unlicense (public domain, no responsibility).
 
 ## Current state
 
+![BLionTale Font preview2](preview2.png)
 ![BLionTale Font preview](preview.png)
