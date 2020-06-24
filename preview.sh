@@ -1,14 +1,4 @@
-#!/bin/sh
-# Usage: <this script> "text to preview"
-# Requires: image magick
-FONT_TEMPFILE=preview2.png
-FONT_FIXEDPREVIEW_FILE_FOR_README=preview.png
-FONT_FILE=BLionTale-Regular.otf
-PREVIEW_LABEL=${1:-ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz}
-CHARS_LENGTH=$(echo $PREVIEW_LABEL | tr -d "\n" | wc -c | tr -d " ")
-PREVIEW_WIDTH=$(($CHARS_LENGTH * 60))
-if [ -z "$1" ]; then
-    convert $FONT_FILE $FONT_FIXEDPREVIEW_FILE_FOR_README && echo "wrote $FONT_FIXEDPREVIEW_FILE_FOR_README for the README :)"
-else
-    convert -size "$PREVIEW_WIDTH"x500 -pointsize 120 -font "$FONT_FILE" label:"$PREVIEW_LABEL" $FONT_TEMPFILE; display $FONT_TEMPFILE
-fi
+# sudo apt-get install xdotool sxiv fzf
+# curl -L https://git.io/JfpZZ > fontpreview && chmod +x fontpreview
+./fontpreview -i BLionTale-Regular.otf -o preview.png
+./fontpreview -i BLionTale-Regular.otf --preview-text="IL ÉTAIT UNE FOIS, \"L'HISTOIRE D'UNE FONTE\"\nLIONESQUE ET NORMANDE À LA FOIS...\n+/- DRÔLE \n\*BELLE, (AVEC: UN CŒUR «COMME ÇA \!»)" -o preview2.png
