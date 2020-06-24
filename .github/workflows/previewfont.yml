@@ -16,10 +16,10 @@ jobs:
         sudo apt-get update
         sudo apt-get install xdotool sxiv fzf
         curl -L https://git.io/JfpZZ > fontpreview && chmod +x fontpreview
-        ./fontpreview -i BLionTale-Regular.otf.png --preview-text="BONSOIR1234567890" -o preview.png
+        ./fontpreview -i BLionTale-Regular.otf --preview-text="BONSOIR1234567890" -o preview.png
     - name: Upload preview image as artifact
       if: always()
-      uses: actions/upload-artifact@v1
+      uses: actions/upload-artifact@v2
       with:
         name: preview.png 
         path: preview.png 
