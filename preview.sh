@@ -1,3 +1,4 @@
+#!/bin/bash
 # sudo apt-get install xdotool sxiv fzf
 # curl -L https://git.io/JfpZZ > fontpreview && chmod +x fontpreview
 ./fontpreview -i BLionTale-Regular.otf -o preview.png
