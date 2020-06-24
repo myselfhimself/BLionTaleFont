@@ -4,7 +4,7 @@ Capital letters only. Optimized for french, so english should work too.
 
 Font made with [Glyphr](http://glyphrstudio.com/)
 
-Run `sh preview.sh "your string"` to preview it with ImageMagick.
+Run `sh preview.sh` to generate preview with `fontpreview`.
 
 This is filed under the Unlicense (public domain, no responsibility).
 
