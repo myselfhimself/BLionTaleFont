@@ -1,0 +1,24 @@
+name: Font preview
+
+on: [push]
+
+jobs:
+  build:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v1
+    - name: Generate font previews
+      working-directory: ./
+      run: |
+        # curl -L https://git.io/raw_fontpreview > fontpreview && chmod +x fontpreview
+        sudo apt-get install xdotool sxiv fzf
+        curl -L https://github.com/sdushantha/fontpreview/blob/31539880b9619d967ae3db813fd8a43343e0caf4/fontpreview > fontpreview && chmod +x fontpreview
+        ./fontpreview -i BLionTale-Regular.otf.png --preview-text="BONSOIR1234567890" -o preview.png
+    - name: Upload images directory as artifact
+      if: always()
+      uses: actions/upload-artifact@v1
+      with:
+        name: preview.png 
+        path: preview.png 
