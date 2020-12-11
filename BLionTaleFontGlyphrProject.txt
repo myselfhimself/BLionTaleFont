@@ -112,7 +112,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "rightside",
-				"location": 270,
+				"location": 240.3065,
 				"angle": false,
 				"color": "rgb(204,81,0)",
 				"visible": true,
@@ -145,7 +145,7 @@
 				"objtype": "guide",
 				"type": "vertical",
 				"name": "max",
-				"location": 250,
+				"location": 220.3065,
 				"angle": false,
 				"color": "rgb(255,193,153)",
 				"visible": true,
@@ -35920,17 +35920,460 @@
 			"name": "BLACK SUN WITH RAYS",
 			"glyphhtml": "&#9728;",
 			"isautowide": true,
-			"glyphwidth": 0,
+			"glyphwidth": 220.3065,
 			"leftsidebearing": false,
 			"rightsidebearing": false,
 			"ratiolock": false,
 			"maxes": {
-				"xmax": 0,
-				"xmin": 0,
-				"ymax": 0,
-				"ymin": 0
+				"xmax": 220.3065,
+				"xmin": 13.41,
+				"ymax": 310.3448,
+				"ymin": 57.4713
 			},
-			"shapes": [],
+			"shapes": [
+				{
+					"objtype": "shape",
+					"name": "Shape 0",
+					"path": {
+						"objtype": "path",
+						"pathpoints": [
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 32.56704980842915,
+									"y": 227.96934865900383,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -159.00383141762455,
+									"y": 227.96934865900383,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 224.1379310344827,
+									"y": 227.96934865900383,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 105.36398467432944,
+									"y": 310.3448275862066,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -86.20689655172416,
+									"y": 310.3448275862066,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 296.9348659003833,
+									"y": 310.3448275862066,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 162.83524904214556,
+									"y": 222.22222222222223,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -28.735632183908024,
+									"y": 222.22222222222223,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 354.40613026819926,
+									"y": 222.22222222222223,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 120.68965517241375,
+									"y": 222.22222222222226,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -70.88122605363986,
+									"y": 222.22222222222226,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 312.26053639846754,
+									"y": 222.22222222222226,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 201.14942528735622,
+									"y": 178.1609195402299,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 9.578544061302697,
+									"y": 178.1609195402299,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 392.72030651341004,
+									"y": 178.1609195402299,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 126.43678160919539,
+									"y": 170.49808429118775,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -65.13409961685825,
+									"y": 170.49808429118775,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 318.00766283524916,
+									"y": 170.49808429118775,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 220.30651340996155,
+									"y": 114.94252873563221,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": 28.735632183908063,
+									"y": 114.94252873563221,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 411.8773946360154,
+									"y": 114.94252873563221,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 128.3524904214559,
+									"y": 95.78544061302685,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -63.2183908045977,
+									"y": 95.78544061302685,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 319.92337164750967,
+									"y": 95.78544061302685,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 122.60536398467428,
+									"y": 57.471264367816126,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -68.96551724137932,
+									"y": 57.471264367816126,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 314.1762452107281,
+									"y": 57.471264367816126,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 97.70114942528733,
+									"y": 59.386973180076666,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -93.86973180076632,
+									"y": 59.386973180076666,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 289.2720306513411,
+									"y": 59.386973180076666,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 95.7854406130268,
+									"y": 103.448275862069,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -95.78544061302685,
+									"y": 103.448275862069,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 287.3563218390806,
+									"y": 103.448275862069,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 13.409961685823777,
+									"y": 103.448275862069,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -178.16091954022997,
+									"y": 103.448275862069,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 204.9808429118773,
+									"y": 103.448275862069,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 74.71264367816093,
+									"y": 159.00383141762455,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -116.85823754789273,
+									"y": 159.00383141762455,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 266.2835249042146,
+									"y": 159.00383141762455,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 19.157088122605366,
+									"y": 164.75095785440615,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -172.41379310344834,
+									"y": 164.75095785440615,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 210.72796934865897,
+									"y": 164.75095785440615,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							},
+							{
+								"objtype": "pathpoint",
+								"P": {
+									"objtype": "coord",
+									"x": 68.96551724137932,
+									"y": 222.2222222222222,
+									"xlock": false,
+									"ylock": false
+								},
+								"H1": {
+									"objtype": "coord",
+									"x": -122.60536398467437,
+									"y": 222.2222222222222,
+									"xlock": false,
+									"ylock": false
+								},
+								"H2": {
+									"objtype": "coord",
+									"x": 260.536398467433,
+									"y": 222.2222222222222,
+									"xlock": false,
+									"ylock": false
+								},
+								"Q": false,
+								"type": "flat",
+								"useh1": false,
+								"useh2": false
+							}
+						],
+						"winding": -4,
+						"maxes": {
+							"xmax": 220.3065,
+							"xmin": 13.41,
+							"ymax": 310.3448,
+							"ymin": 57.4713
+						}
+					},
+					"visible": true,
+					"xlock": false,
+					"ylock": false,
+					"wlock": false,
+					"hlock": false,
+					"ratiolock": false
+				}
+			],
 			"usedin": [],
 			"contextglyphs": "",
 			"rotationreferenceshapes": false
@@ -36289,7 +36732,7 @@
 		},
 		"0x2605": {
 			"objtype": "glyph",
-			"hex": "0x2605",
+			"hex": false,
 			"name": "BLACK STAR",
 			"glyphhtml": "&#9733;",
 			"isautowide": true,
