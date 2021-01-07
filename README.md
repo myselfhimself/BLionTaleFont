@@ -1,6 +1,9 @@
 # BLionTaleFont
 Tentative font for loving these last days of life
-Capital letters only. Optimized for french, so english should work too.
+Capital letters only. 
+
+Optimized for french, so english should work too.
+Czech is in the work (hatchek letters, vowels soon).
 
 Font made with [Glyphr](http://glyphrstudio.com/)
 
